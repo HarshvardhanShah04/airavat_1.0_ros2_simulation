@@ -1,0 +1,29 @@
+### ekf config file ###
+ekf_node:
+    ros__parameters:
+        frequency: 30.0
+        two_d_mode: true  # Changed to true for 2D navigation
+        publish_acceleration: false  # Changed to false, not needed for navigation
+        publish_tf: true
+
+        map_frame: map
+        odom_frame: odom
+        base_link_frame: base_footprint
+        world_frame: odom
+
+        odom0: /odom
+        odom0_config: [true,  true,  false,  # x, y, z (enable x, y for 2D)
+                       false, false, false,  # roll, pitch, yaw
+                       true,  true,  false,  # vx, vy, vz (enable vx, vy)
+                       false, false, true,   # vroll, vpitch, vyaw (enable vyaw)
+                       false, false, false]  # ax, ay, az
+        odom0_differential: false
+
+        imu0: /imu/data
+        imu0_config: [false, false, false,  # x, y, z (IMU doesn't provide position)
+                      true,  true,  false,  # roll, pitch, yaw (enable orientation)
+                      false, false, false,  # vx, vy, vz
+                      false, false, true,   # vroll, vpitch, vyaw (enable angular velocity)
+                      true,  true,  false]  # ax, ay, az (enable linear acceleration)
+        imu0_differential: false
+        imu0_remove_gravitational_acceleration: true
