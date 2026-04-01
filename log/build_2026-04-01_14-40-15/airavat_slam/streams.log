@@ -1,0 +1,43 @@
+[0.020s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/airavat_1.0_ros2_simulation/src/airavat_slam -DCMAKE_INSTALL_PREFIX=/home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.264s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.392s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.933s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.118s] -- Configuring done
+[1.120s] -- Generating done
+[1.122s] -- Build files have been written to: /home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam
+[1.131s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/airavat_1.0_ros2_simulation/src/airavat_slam -DCMAKE_INSTALL_PREFIX=/home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam
+[1.132s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam -- -j24 -l24
+[1.195s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam -- -j24 -l24
+[1.198s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam
+[1.207s] -- Install configuration: ""
+[1.207s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/launch
+[1.208s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/launch/slam_toolbox_launch.py
+[1.208s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/config
+[1.208s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/config/mapper_params_online_async.yaml
+[1.208s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/ament_index/resource_index/package_run_dependencies/airavat_slam
+[1.208s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/ament_index/resource_index/parent_prefix_path/airavat_slam
+[1.208s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/environment/ament_prefix_path.sh
+[1.209s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/environment/ament_prefix_path.dsv
+[1.209s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/environment/path.sh
+[1.209s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/environment/path.dsv
+[1.209s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/local_setup.bash
+[1.209s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/local_setup.sh
+[1.210s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/local_setup.zsh
+[1.210s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/local_setup.dsv
+[1.210s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/package.dsv
+[1.211s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/ament_index/resource_index/packages/airavat_slam
+[1.211s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/cmake/airavat_slamConfig.cmake
+[1.211s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/cmake/airavat_slamConfig-version.cmake
+[1.211s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_slam/share/airavat_slam/package.xml
+[1.252s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/airavat_1.0_ros2_simulation/build/airavat_slam

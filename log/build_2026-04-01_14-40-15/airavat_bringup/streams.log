@@ -1,0 +1,46 @@
+[0.024s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/airavat_1.0_ros2_simulation/src/airavat_bringup -DCMAKE_INSTALL_PREFIX=/home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.273s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.400s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.401s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.527s] -- Detecting CXX compiler ABI info - done
+[0.538s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.547s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.927s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.132s] -- Configuring done
+[1.135s] -- Generating done
+[1.137s] -- Build files have been written to: /home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup
+[1.146s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/airavat_1.0_ros2_simulation/src/airavat_bringup -DCMAKE_INSTALL_PREFIX=/home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup
+[1.148s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup -- -j24 -l24
+[1.217s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup -- -j24 -l24
+[1.219s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup
+[1.229s] -- Install configuration: ""
+[1.229s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup//launch
+[1.229s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup//launch/gazebo_launch.py
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup//config
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup//config/gazebo_bridge.yaml
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup//world
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup//world/test_world.sdf
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup//world/test_world_plain.sdf
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/ament_index/resource_index/package_run_dependencies/airavat_bringup
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/ament_index/resource_index/parent_prefix_path/airavat_bringup
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/environment/ament_prefix_path.sh
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/environment/ament_prefix_path.dsv
+[1.230s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/environment/path.sh
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/environment/path.dsv
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/local_setup.bash
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/local_setup.sh
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/local_setup.zsh
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/local_setup.dsv
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/package.dsv
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/ament_index/resource_index/packages/airavat_bringup
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/cmake/airavat_bringupConfig.cmake
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/cmake/airavat_bringupConfig-version.cmake
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_bringup/share/airavat_bringup/package.xml
+[1.295s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/airavat_1.0_ros2_simulation/build/airavat_bringup

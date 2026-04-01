@@ -1,0 +1,51 @@
+[0.019s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/airavat_1.0_ros2_simulation/src/airavat_nav2 -DCMAKE_INSTALL_PREFIX=/home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.254s] -- The CXX compiler identification is GNU 11.4.0
+[0.268s] -- Detecting C compiler ABI info
+[0.377s] -- Detecting C compiler ABI info - done
+[0.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.391s] -- Detecting C compile features - done
+[0.397s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.533s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.966s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.141s] -- Configuring done
+[1.143s] -- Generating done
+[1.145s] -- Build files have been written to: /home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2
+[1.149s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/airavat_1.0_ros2_simulation/src/airavat_nav2 -DCMAKE_INSTALL_PREFIX=/home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2
+[1.150s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2 -- -j24 -l24
+[1.214s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2 -- -j24 -l24
+[1.218s] Invoking command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2
+[1.230s] -- Install configuration: ""
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/config
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/config/nav2_params.yaml
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/config/amcl_config.yaml
+[1.231s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/launch
+[1.232s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/launch/amcl.launch.py
+[1.232s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/launch/navigation.launch.py
+[1.232s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/launch/navigation.launch.py.bkp
+[1.232s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/maps
+[1.232s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/maps/my_map.yaml
+[1.232s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/maps/my_map.pgm
+[1.232s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/rviz2
+[1.232s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/rviz2/nav2_view.rviz
+[1.233s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/ament_index/resource_index/package_run_dependencies/airavat_nav2
+[1.233s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/ament_index/resource_index/parent_prefix_path/airavat_nav2
+[1.233s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/environment/ament_prefix_path.sh
+[1.233s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/environment/ament_prefix_path.dsv
+[1.233s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/environment/path.sh
+[1.234s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/environment/path.dsv
+[1.237s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/local_setup.bash
+[1.237s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/local_setup.sh
+[1.238s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/local_setup.zsh
+[1.238s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/local_setup.dsv
+[1.238s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/package.dsv
+[1.238s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/ament_index/resource_index/packages/airavat_nav2
+[1.238s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/cmake/airavat_nav2Config.cmake
+[1.238s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/cmake/airavat_nav2Config-version.cmake
+[1.238s] -- Installing: /home/harsh/airavat_1.0_ros2_simulation/install/airavat_nav2/share/airavat_nav2/package.xml
+[1.295s] Invoked command in '/home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/airavat_1.0_ros2_simulation/build/airavat_nav2
