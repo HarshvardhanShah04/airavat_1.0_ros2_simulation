@@ -14,6 +14,7 @@ Airavat 1.0 is modeled as a differential-drive ground rover operating in a 2D pl
 
 * 2D LiDAR — environment perception
 * IMU — inertial measurements
+* Wheel Odometry
 * Camera — visual input (optional / extensible)
 
 ### Capabilities
@@ -72,8 +73,6 @@ airavat_1.0_ros2_simulation/
 ├── airavat_slam/          # Mapping (SLAM Toolbox)
 ├── airavat_nav2/          # Localization and navigation (Nav2)
 ```
-
-Each package contains its own documentation describing implementation details.
 
 ---
 
@@ -141,7 +140,7 @@ map → odom → base_link → sensor frames
 
 ### Published Topics
 
-* `/odom` — raw odometry
+* `/odom` — raw wheel odometry
 * `/odometry/filtered` — EKF output
 * `/tf` — coordinate transforms
 * `/map` — occupancy grid
@@ -194,9 +193,9 @@ This project demonstrates that Airavat 1.0 can autonomously:
 
 ## Author
 
-Harsh Shah
-BTech Mechanical Engineering
-Pandit Deendayal Energy University
+Harshvardhan Shah  
+BTech Mechanical Engineering  
+Pandit Deendayal Energy University  
 
 ---
 
