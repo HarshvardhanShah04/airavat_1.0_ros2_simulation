@@ -193,7 +193,7 @@ This project demonstrates that Airavat 1.0 can autonomously:
 
 ## Author
 
-Harshvardhan Shah
+Harshvardhan Shah  
 Team Kaizen, PDEU
 
 ---
