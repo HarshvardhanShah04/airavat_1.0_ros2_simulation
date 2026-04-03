@@ -193,9 +193,8 @@ This project demonstrates that Airavat 1.0 can autonomously:
 
 ## Author
 
-Harshvardhan Shah  
-BTech Mechanical Engineering  
-Pandit Deendayal Energy University  
+Harshvardhan Shah
+Team Kaizen, PDEU
 
 ---
 
